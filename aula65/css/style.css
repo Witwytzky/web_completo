@@ -1,6 +1,6 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #643d87 url(../IMG/fundo.jpg) no-repeat top center;
+    background: #643d87 url(../img/fundo.jpg) no-repeat top center;
 }
 
 /* ID's */
@@ -35,11 +35,11 @@ input{
 }
 
 input.email{
-    background-image: url(../IMG/icone-usuario.png);
+    background-image: url(../img/icone-usuario.png);
 }
 
 input.senha{
-    background-image: url(../IMG/icone-cadeado.png);
+    background-image: url(../img/icone-cadeado.png);
 }
 
 input.submit{

@@ -13,12 +13,12 @@
 
 .caixa{
     width: 400px;
-    background: #dedede url(fundo-arredondamento.png)repeat-y;
+    background: #dedede url(../img/fundo-arredondamento.png)repeat-y;
 }
 
 .caixa h2{
     padding: 10px 20px 0 20px;
-    background: url(topo2.png) no-repeat left top;
+    background: url(../img/topo2.png) no-repeat left top;
 }
 
 .caixa p{
@@ -27,7 +27,7 @@
 }
 
 .caixa .ultimo{
-    background: url(baixo2.png) no-repeat left bottom;
+    background: url(../img/baixo2.png) no-repeat left bottom;
     width: 400px;
     height: 24px;
 }
