@@ -1,0 +1,29 @@
+/* Inicio importação de fontes */
+    @font-face {
+        font-family: "Ancient-Medium";
+        src: url(../fonts/Ancient-Medium.woff);
+    }
+    @font-face {
+        font-family: "BringHeart";
+        src: url(../fonts/BringHeart.woff);
+    }
+    @font-face {
+        font-family: "MadelinaScript";
+        src: url(../fonts/MadelinaScript.woff);
+    }
+/* Fim importação de fontes */
+
+/* Inicio formatação padrão */
+    h1{
+        font-size: 6em;
+        font-family: "MadelinaScript";
+    }
+    h2{
+        font-size: 6em;
+        font-family: "BringHeart";
+    }
+    h3{
+        font-size: 6em;
+        font-family: "Ancient-Medium";
+    }
+/* Fim formatação padrão */
