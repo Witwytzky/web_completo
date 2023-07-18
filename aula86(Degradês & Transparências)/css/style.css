@@ -1,0 +1,14 @@
+/* Inicio ID's */
+#caixa{
+    width: 300px;
+    height: 300px;
+    /* background: url(../img/camera.png); */
+    /* background: linear-gradient(158deg,#ccc,green,blue); */
+    /* background: linear-gradient(to left,#ccc,green); */
+    background: radial-gradient(purple,grey,red);
+}
+/* #caixa h1{
+    background: rgba(255,255,255,0.5);
+} */
+/* Fim ID's */
+
