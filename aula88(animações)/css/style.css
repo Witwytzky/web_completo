@@ -1,0 +1,56 @@
+/* Inicio animações */
+    @keyframes animacao-caixa {
+        0% {
+            /* Estado inicial */
+            background: red;
+            width: 0%;
+            height: 0;
+            top: 0;
+            left: 0;
+            border-radius: 0;
+        }
+        50% {
+            /* Estado intermediário */
+            width: 150px;
+            height: 150px;
+            top: 25%;
+            left: 25%;
+            background: yellow;
+            border-radius: 50px;
+        }
+        100% {
+            /* Estado final */
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%; 
+            background: green;
+            border-radius: 300px;
+        }        
+    }
+/* Fim animações */
+
+/* Inicio Id's */
+    #caixa{
+        position: absolute;
+            /* Necessário definir posição absoluta para objetos se moverem na tela */
+        width: 300px;
+        height: 300px;
+        /* border-radius: 600px; */
+        background: black;
+        animation: animacao-caixa 1s 0s infinite alternate;
+            /*^ Define a animeção em uma unica lina, definindo na ordem: O nome da animação, duração, delay de inicio, quantidade de repetições(infinite faz com que repita para sempre), propriedade de direção(alternate ou reverse) */
+        /* animation-name: animacao-caixa; */
+            /*^ Define o uso da animação configurada */
+        /* animation-duration: 5s; */
+            /*^ Duração da animação */
+        /* animation-delay: 0.5s; */
+            /*^ Delay para inicio da animação */
+        /* animation-iteration-count: 2; */
+            /*^ Quantidade de repetições a serem realizadas pela animação */
+        /* animation-direction: alternate; */
+            /*^ Caso a animação se repita mais de uma vez, ele faz com que a o objeto volteao seu ponto inicial de trás para frente para fazer a segunda animação */
+        /* animation-direction: reverse; */
+            /*^ Faz a animação começar do final */
+    }
+/* Fim Id's */
