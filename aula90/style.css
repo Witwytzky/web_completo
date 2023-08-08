@@ -1,0 +1,32 @@
+/* Inicio padrão */
+    header{
+        border: 1px solid red;
+        background: #f2f2f2;
+        padding: 10px;
+    }
+    nav{
+        border: 1px solid blue;
+        padding: 5px;
+    }
+    footer{
+        background: #9a9aa3;
+    }
+
+    article{
+        background: orange;
+    }
+
+    section{
+        border: 1px dotted white;
+        padding: 10px;
+    }
+
+    aside{
+        background: blue;
+        color: white;
+    }
+/* Fim padrão */
+
+/* Inicio Id's */
+
+/* Fim Id's */
