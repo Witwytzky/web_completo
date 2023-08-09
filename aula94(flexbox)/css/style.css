@@ -1,0 +1,20 @@
+#content{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    /* row | row-reverse | Column | Column-reverse */
+    flex-direction: row ;
+    /* nowerap|wrap|wrap-reverse */
+    flex-wrap: nowrap;
+    /* Flex-start | Flex-end | center | space-between | space-around */
+    justify-content: center;/* movimentação referencia horizontal */
+    /* strtcha | center | Flex-start | flex-end | baseline  */
+    align-items: center;/* Movimentação referencia na vertical */
+}
+.item{
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid red;
+}

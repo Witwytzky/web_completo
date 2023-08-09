@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../aula83-84(normalize)/css/normalize.css">
+    <title>tags de input html</title>
+</head>
+<body>
+    <form action="">
+        <!-- nome required -->
+        <Label for="nome">Nome</Label>
+        <input type="text" id="nome"  autofocus>
+
+        <br><br>
+
+        <!-- Email required-->
+        <Label for="email">Email</Label>
+        <input type="email"  id="email" >
+
+        <br><br>
+
+        <Label for="numero">numero</Label>
+        <input type="number"  id="numero" min="1" max="20" step="5">
+
+        <br><br>
+
+        <Label for="url">url</Label>
+        <input type="url"  id="url" placeholder="ex: http://www.site.com">
+
+        <br><br>
+
+        <Label for="pesquisa">pesquisa</Label>
+        <input type="search"  id="pesquisa">
+
+        <br><br>
+
+        <Label for="range">range</Label>
+        <input type="range"  id="range" min="1" max="10" value="2">
+
+        <br><br>
+
+        <Label for="date">date</Label>
+        <input type="date"  id="date">
+
+        <br><br>
+
+        <Label for="color">color</Label>
+        <input type="color"  id="color">
+
+        <br><br>
+
+        <input type="submit" name="" value="Enviar">
+    </form>
+</body>
+</html>
